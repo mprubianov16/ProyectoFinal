@@ -597,3 +597,45 @@ th {
     text-align: center;
   }
 }
+
+
+/* Crónicas */
+
+.cronicas {
+  padding: 6rem 4rem;
+  text-align: center;
+}
+
+.grid-cronicas {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  justify-items: center;
+
+}
+
+.card-cronica {
+  background-color: whitesmoke;
+  border: 1px solid #D1CBDD;
+  font-family: 'Outfit', sans-serif;
+  padding: 10px;
+}
+
+@media (min-width: 1024px) {
+  .grid-cronicas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.portada {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.tertiary {
+  border-radius: 2rem;
+  color: darkgray;
+  font-weight: bold;
+
+}
