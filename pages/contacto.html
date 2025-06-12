@@ -55,7 +55,48 @@
 </nav>
 </header>
 
+<section class="unete">
+  <h2 class="subtitulo mb-4">ÚNETE A NOSOTROS</h2>
 
+  <div class="container d-flex justify-content-center">
+    <form class="form p-4" style="max-width: 700px; width: 100%;">
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="col-md-6">
+          <label for="apellido" class="form-label">Apellido:</label>
+          <input type="text" class="form-control" id="apellido" required>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="tema" class="form-label">¿Sobre qué te gustaría escribir?</label>
+        <textarea class="form-control" id="tema" rows="3" required></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico:</label>
+        <input type="email" class="form-control" id="correo" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="pais" class="form-label">País:</label>
+        <select class="form-select" id="pais">
+          <option selected>Colombia</option>
+          <option>México</option>
+          <option>Argentina</option>
+          <option>Otro</option>
+        </select>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-secondary px-4">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
 
 
 <footer class="footer">
