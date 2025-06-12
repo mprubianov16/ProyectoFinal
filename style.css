@@ -821,3 +821,23 @@ th {
     margin-top: 2rem;
   }
 }
+
+
+.imagen-final {
+  width: 1000%;
+  height: auto;
+  max-width: 1000px;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.subtitulo-conectar {
+    font-family: 'Bungee Hairline', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  padding-top: 6rem;
+  text-align: center;
+  padding-left: 0;
+  font-weight: bold;
+
+}
